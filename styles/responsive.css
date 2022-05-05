@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+   .container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .logo{
+    width: 5em;
+    margin-left: 2.5em;
+    margin-right: 2em;
+    }
+   header nav a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    margin-right: 0.7em;
+    padding-bottom: 0.3em;
+    }
+    .content {
+        color: #f1f1f1;
+        padding: 1em;
+        width: 100%;
+        margin-bottom: 3em;       
+      }    
+   .card{
+    width: 100%;     
+    margin-left: 2.5em;
+    }
+    .titulo {
+        font-size: 2.3em;
+        margin-bottom: 0.2em;
+    }
+    .descricao{
+        font-size: 0.7em;
+        line-height: 1.4em;
+    }
+    .botao{
+        display: none;
+    }
+    .containerFooter{        
+        margin-left: 32%;
+        height: 40px;
+        font-size: 0.6em;
+    }
+}
